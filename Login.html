@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+</head>
+<body>
+    <img src="./Imágenes/P.png" alt="Logo">
+      <h1>Pictures & Images</h1>
+      <h2>Registro de nuevo usuario</h2>
+      <form action="submit">
+      <div class="listaInicioSesion">
+          <div>
+            <p>Ingrese su Usuario
+            <input type="text" class="cuadrotexto" id="usuario" name="usuario" placeholder="Usuario" pattern="^[a-zA-Z][a-zA-Z0-9]{3,19}$" required autofocus>
+            </p>
+          </div>
+          <div>
+            <p>Ingrese su Contraseña
+            <input type="password" class="cuadrotexto" id="contraseña1" name="contraseña1" pattern="^[a-zA-Z0-9_.-]{4,20}$" required placeholder="Contraseña">
+          </p>
+          </div>
+          <div>
+            <input class="boton" type="submit" id="boton11" value="Iniciar sesión">
+            <input class="reset" type="reset" id="boton1" value="Limpiar">
+          </div>
+        </div>
+      </form>
+    <footer>
+        <p>Derechos de autor &copy; 2023 Daniel Ibarra Crespo y José Ángel Sala García</p>
+    </footer>
+  </body>
+  </html>
